@@ -65,6 +65,17 @@ Cursor rules that auto-apply to every conversation in this project.
 | `reviewer-executive.mdc` | Executive reviewer persona for PRD reviews |
 | `reviewer-user-researcher.mdc` | User research reviewer persona for PRD reviews |
 
+### `image-generation/`
+Image generation toolkit using Gemini 3 Pro.
+
+| File | What it is |
+|------|-----------|
+| `image_gen.py` | Main generation module (handles API, sessions, saving) |
+| `style_extract.py` | Extract style descriptions from any image |
+| `get_style.py` | Retrieve prompts from your style library |
+| `style-library.html` | Browse your saved styles (open in browser) |
+| `README.md` | Setup and usage instructions |
+
 ### Root files
 
 | File | What it is |
